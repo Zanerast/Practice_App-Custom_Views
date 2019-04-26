@@ -103,8 +103,8 @@ public class CountdownView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        int canvasWidth = canvas.getWidth();
-        int canvasHeight = canvas.getHeight();
+        int canvasWidth = getWidth();
+        int canvasHeight = getHeight();
 
         float centerX = Math.round(canvasWidth * 0.5f);
         float centerY = Math.round(canvasHeight * 0.5f);
